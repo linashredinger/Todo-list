@@ -1,0 +1,25 @@
+.newTask {
+  display: flex;
+  padding: 0 20px;
+  margin: 10px 0;
+  &_input {
+    outline: none;
+    padding: 15px 10px;
+    border: 1px solid #b5cecd;
+    width: 100%;
+  }
+  &_button {
+    padding: 10px;
+    background: #b5cecd;
+    color: #445c60;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,.3);
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background .2s ease-out;
+    width: 115px;
+    &:hover{
+      background-color: darken(#b5cecd, 10);
+    }
+  }
+}
